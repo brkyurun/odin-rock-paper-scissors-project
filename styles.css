@@ -1,3 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Shizuru&display=swap");
+
+:root {
+  --background-color: #a9def9;
+  --text-color: #343a40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-family: "Shizuru", cursive;
+  margin-bottom: -100px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  margin: 100px 0;
+}
+
+.btn {
+  padding: 2rem 4rem;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.btn:first-of-type {
+  background-color: rgb(255, 153, 200);
+}
+
+.btn:nth-of-type(2) {
+  background-color: rgb(252, 246, 189);
+}
+
+.btn:nth-of-type(3) {
+  background-color: rgb(208, 244, 222);
+}
+
+.btn:nth-of-type(4) {
+  background-color: rgb(228, 193, 249);
+}
+
 .hidden {
   display: none;
+}
+
+.results-container {
+  height: 200px;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comfortaa", cursive;
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.result-text {
+  margin-bottom: 10px;
 }
