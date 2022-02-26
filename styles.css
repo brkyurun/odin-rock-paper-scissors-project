@@ -98,11 +98,13 @@ footer {
   gap: 8px;
 }
 
-footer > a {
+footer > a,
+footer > a:visited {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
   font-family: monospace;
   font-size: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 625px) {
