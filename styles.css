@@ -90,3 +90,25 @@ h1 {
 .result-text {
   margin-bottom: 10px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+footer > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: monospace;
+  font-size: 20px;
+}
+
+@media (max-width: 625px) {
+  .btn-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+  }
+}
